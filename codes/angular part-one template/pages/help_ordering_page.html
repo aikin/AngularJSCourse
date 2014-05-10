@@ -1,0 +1,22 @@
+<header id="help_ordering_page">
+    订餐
+</header>
+<div class='wrapper scrollable'>
+    <form class='wrapper-inner'>
+        <fieldset class='form-wrapper'>
+            <div class='break20'>
+                <h5>人:</h5>
+                <input class='input-sm input-full input-large form-control' ng-model='user' ng-disabled='true' type='text'/>
+                <br>
+                <button class='btn-style btn-3 text-center margin-top-10' ng-tap='go_choose_people_page()'>
+                    {{choose_people}}
+                </button>
+            </div>
+            <div class='break20'>
+                <button class='btn-style btn-3 text-center sure-btn' ng-show='show' ng-tap='submit_ordering()'>
+                    确认
+                </button>
+            </div>
+        </fieldset>
+    </form>
+</div>

@@ -1,0 +1,10 @@
+<header id="choose_people_page">
+    选人
+</header>
+<div class='wrapper scrollable'>
+    <ul class='list-group'>
+        <li class='list-group-item' ng-repeat='user in users' ng-tap="select_user('{{user.name}}')">
+            {{user.name}}
+        </li>
+    </ul>
+</div>

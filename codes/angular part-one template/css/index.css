@@ -1,0 +1,33 @@
+.beyond_price {
+    color: #FA0522;
+}
+
+.within_price {
+    color: #000;
+}
+
+.font-white {
+    color: #fff;
+}
+
+.bg-color-white {
+    background-color: #fff;
+}
+
+.padding-left-0 {
+    padding-left: 0px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+#editor {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+}
+
+.sure-btn {
+
+}
