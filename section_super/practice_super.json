@@ -8,7 +8,8 @@
     "answer": "<li>this is answer for angular template practice A</li>",
 
     "project_dir": "/angular part-one template",
-    "specs_dir": "/specs",
+    "specs_dir":  "/specs",
+    "answer_tar": "/AngularJS-LunchMasterDemo.tar.gz",
     "spec": {
         "name": "index.html",
         "path": "/angular part-one template/"
